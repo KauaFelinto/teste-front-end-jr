@@ -1,0 +1,83 @@
+.relaction{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text {
+    margin: 60px;
+    text-align: center;
+}
+
+.text > a{
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    transition: .3s;
+}
+.text > a:hover{
+    color: gray;
+    transition: .3s;
+}
+
+.parceiros{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+
+.parse{
+    width: 574px;
+    height: 284px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 85.04%), url('../../../images/image\ 45.png'), lightgray 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    display: flex;
+    padding: 40px;
+}
+
+.content{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 40px;
+    margin-top: 50px;
+}
+
+.content > h2{
+    color: #fff;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.content > p{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#btn-parse{
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background: #F71963;
+    color: #fff;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: .3s;
+}
+#btn-parse:hover{
+    scale: 1.1;
+    transition: .3s;
+    border-radius: 10px;
+}
+
+.produtos-parse{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
